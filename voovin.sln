@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voovin", "voovin.csproj", "{19B7B81B-A40C-B36B-5570-99F313FD9F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voovin.Plugins", "voovin.Plugins.csproj", "{F4080643-F2B2-9C9F-0B65-E2F5ADE07BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voovin.Editor", "voovin.Editor.csproj", "{37459F69-A840-5C6D-DF3C-4665AF8A7F57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B7B81B-A40C-B36B-5570-99F313FD9F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B7B81B-A40C-B36B-5570-99F313FD9F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B7B81B-A40C-B36B-5570-99F313FD9F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B7B81B-A40C-B36B-5570-99F313FD9F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4080643-F2B2-9C9F-0B65-E2F5ADE07BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4080643-F2B2-9C9F-0B65-E2F5ADE07BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4080643-F2B2-9C9F-0B65-E2F5ADE07BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4080643-F2B2-9C9F-0B65-E2F5ADE07BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37459F69-A840-5C6D-DF3C-4665AF8A7F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37459F69-A840-5C6D-DF3C-4665AF8A7F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37459F69-A840-5C6D-DF3C-4665AF8A7F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37459F69-A840-5C6D-DF3C-4665AF8A7F57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
