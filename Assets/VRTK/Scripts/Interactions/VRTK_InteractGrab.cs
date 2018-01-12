@@ -562,16 +562,25 @@ namespace VRTK
 
         protected virtual bool IsValidGrabAttempt(GameObject objectToGrab)
         {
+          //  RaycastHit hit;
+
+           // Ray pointerRaycast = new Ray(this.gameObject.transform.position, -this.gameObject.transform.up);
+          //  bool rayHit = VRTK_CustomRaycast.Raycast(null, pointerRaycast, out hit, Physics.IgnoreRaycastLayer);
+           // Debug.DrawRay(this.gameObject.transform.position, -this.gameObject.transform.up, Color.red, 60);
             bool initialGrabAttempt = false;
             VRTK_InteractableObject objectToGrabScript = (objectToGrab != null ? objectToGrab.GetComponent<VRTK_InteractableObject>() : null);
-            if (grabbedObject == null && interactTouch != null && IsObjectGrabbable(interactTouch.GetTouchedObject()) && ScriptValidGrab(objectToGrabScript))
+            if (grabbedObject == null && interactTouch != null && IsObjectGrabbable(interactTouch.GetTouchedObject()) && ScriptValidGrab(objectToGrabScript)
+               )
             {
                 InitGrabbedObject();
+               
+                
                 if (!influencingGrabbedObject)
                 {
                     initialGrabAttempt = objectToGrabScript.grabAttachMechanicScript.StartGrab(gameObject, grabbedObject, controllerAttachPoint);
                 }
             }
+            //Debug.Log(Vector3.Dot(hit.normal, Vector3.up));
             return initialGrabAttempt;
         }
 

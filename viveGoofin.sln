@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viveGoofin", "viveGoofin.csproj", "{79F112E4-7C4C-2259-DD6D-E1AE43094C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viveGoofin.Plugins", "viveGoofin.Plugins.csproj", "{3D2BBE71-18AD-6BE7-EC25-F3D0E119D915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viveGoofin.Editor", "viveGoofin.Editor.csproj", "{DE9DDD06-2946-4EDE-5EDC-077B0D6FA5FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F112E4-7C4C-2259-DD6D-E1AE43094C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F112E4-7C4C-2259-DD6D-E1AE43094C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F112E4-7C4C-2259-DD6D-E1AE43094C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F112E4-7C4C-2259-DD6D-E1AE43094C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2BBE71-18AD-6BE7-EC25-F3D0E119D915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2BBE71-18AD-6BE7-EC25-F3D0E119D915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2BBE71-18AD-6BE7-EC25-F3D0E119D915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2BBE71-18AD-6BE7-EC25-F3D0E119D915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE9DDD06-2946-4EDE-5EDC-077B0D6FA5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9DDD06-2946-4EDE-5EDC-077B0D6FA5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9DDD06-2946-4EDE-5EDC-077B0D6FA5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9DDD06-2946-4EDE-5EDC-077B0D6FA5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

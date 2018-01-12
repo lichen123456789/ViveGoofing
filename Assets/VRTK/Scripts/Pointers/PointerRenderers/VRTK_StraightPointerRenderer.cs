@@ -191,7 +191,7 @@ namespace VRTK
 #pragma warning disable 0618
             bool rayHit = VRTK_CustomRaycast.Raycast(customRaycast, pointerRaycast, out pointerCollidedWith, layersToIgnore, maximumLength);
 #pragma warning restore 0618
-
+            Debug.Log(Vector3.Dot(pointerCollidedWith.normal, Vector3.up));
             CheckRayMiss(rayHit, pointerCollidedWith);
             CheckRayHit(rayHit, pointerCollidedWith);
 

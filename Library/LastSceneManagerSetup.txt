@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Polylised - Medieval Desert City/Demo/Demo_01.unity
+- path: Assets/Obi/Sample Scenes/RopeAndJoints.unity
   isLoaded: 1
   isActive: 1
